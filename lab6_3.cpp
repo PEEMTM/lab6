@@ -1,14 +1,17 @@
 #include<iostream>
 using namespace std;
 
+#include<iostream>
+using namespace std;
+
 char before(char x){
     if(x=='A'){
-		return x='Z';
+		return 'Z';
     }
 	if(x>64&&x<91){
-		x=x-1;
+		return x-1;
 	}else{
-		return x='0';
+		return '0';
 	}
 	return x;
 }
